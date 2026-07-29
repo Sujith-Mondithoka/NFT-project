@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Preview Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="card">
+      <div class="card__images">
+        <img
+          class="card__image"
+          src="./assets/image-equilibrium.jpg"
+          alt="Equilibrium NFT"
+        />
+        <div class="card__images-layer" aria-hidden="true">
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 33C27.866 33 31 29.866 31 26C31 22.134 27.866 19 24 19C20.134 19 17 22.134 17 26C17 29.866 20.134 33 24 33Z"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path
+              d="M4 26C4 26 11 12 24 12C37 12 44 26 44 26C44 26 37 40 24 40C11 40 4 26 4 26Z"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <h1 class="card__title">Equilibrium #3429</h1>
+      <p class="card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+
+      <div class="card__time">
+        <div class="card__time-left">
+          <svg
+            class="card__icon"
+            viewBox="0 0 11 18"
+            width="11"
+            height="18"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M5.19 0 0 8.596l5.19 3.066 5.189-3.066L5.19 0ZM0 9.581l5.19 7.314 5.189-7.314L5.19 12.647 0 9.581Z"
+            />
+          </svg>
+          <span class="card__price">0.041 ETH</span>
+        </div>
+        <div class="card__time-right">
+          <svg
+            class="card__icon card__icon--clock"
+            viewBox="0 0 16 16"
+            width="16"
+            height="16"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <circle cx="8" cy="8" r="7" />
+            <path
+              d="M8 4v4l2.5 2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="card__time-label">3 days left</span>
+        </div>
+      </div>
+
+      <div class="card__creator">
+        <img
+          class="card__creator-image"
+          src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=80&q=80"
+          alt="Creator avatar"
+        />
+        <p class="card__creator-text">
+          Creation of <strong>Ketan Makode</strong>
+        </p>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.crio.do" target="_blank" rel="noreferrer noopener"
+        >Crio.Do</a
+      >.
+      Coded by
+      <a
+        href="https://github.com/ketan-makode"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Ketan Makode</a
+      >.
+    </footer>
+  </body>
+</html>
